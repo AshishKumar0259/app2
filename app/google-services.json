@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765877603917",
+    "project_id": "rainbow61-40908",
+    "storage_bucket": "rainbow61-40908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765877603917:android:9bad49c7d5abb33aad5604",
+        "android_client_info": {
+          "package_name": "my.fishdetection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765877603917-o89rfsnc148f7g30np6oka164urdhdg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDV9nEHqJKQHWYKNcC5HuSERoQgvUhZPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765877603917-o89rfsnc148f7g30np6oka164urdhdg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

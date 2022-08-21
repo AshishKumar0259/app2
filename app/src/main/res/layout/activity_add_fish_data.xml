@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFishDataActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addDatatoolbar"
+        android:background="?colorOnPrimary"
+        android:elevation="5dp"
+        app:title="Add Fish Data"
+        app:titleTextColor="?android:textColor"/>
+
+    <LinearLayout
+        android:id="@+id/et_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/addDatatoolbar"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="?android:textColor"
+            android:hint="Fish Name"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/FishName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="?android:textColor"
+            android:hint="Common Name"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/CommonName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="?android:textColor"
+            android:hint="Description"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/Description"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="?android:textColor"
+            android:hint="Distribution"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/Distribution"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="?android:textColor"
+            android:hint="Threat To Humans"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/ThreatToHumans"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="?android:textColor"
+            android:hint="Add Link From Firebase Storage"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/imagadata"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add Data"
+        android:textSize="16sp"
+        android:id="@+id/AddData"/>
+
+</RelativeLayout>
